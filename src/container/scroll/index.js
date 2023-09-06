@@ -28,7 +28,7 @@ function checkScroll() {
     return null
   }
   if (scrollY <= window.innerHeight && isDisplay) {
-    window.scroll_top.style = 'display: none'
+    window.scroll_top.style.display = 'none'
     isDisplay = false
     return
   }
