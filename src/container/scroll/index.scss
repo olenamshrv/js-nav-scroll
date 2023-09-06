@@ -1,0 +1,30 @@
+@use '../../style' as s;
+
+main {
+	background-color: white;
+	height: 30000px;
+}
+
+section {
+	background-color: rgb(226, 223, 223);
+	height: 200px;
+	margin: 20px;
+	border-radius: 4px;
+	padding: 24px;
+}
+
+.button-scroll {
+	width: 60px;
+	height: 60px;
+	border-radius: 130px;
+	background-color: #FF7241;
+
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+

@@ -1,0 +1,40 @@
+@use '../../style' as s;
+
+body {
+	background-color: s.color(dark-gray);
+	font-family: Inter;
+}
+
+main {
+	background-color: white;
+	padding: s.space(50);
+}
+
+.nav {
+	background-color: s.color(light);
+	border-radius: 100px;
+	display: flex;
+	padding: s.space(4) s.space(10);
+	align-items: center;
+	gap: s.space(10);
+	color: white;
+
+	&__button {
+		transition: opacity 0.7s;
+
+		&:hover {
+			opacity: 0.7;
+			cursor: pointer;
+		}
+	}
+
+	&_input {
+		display: flex;
+		width: 832.544px;
+		padding: s.space(4) s.space(10);
+		align-items: flex-start;
+		gap: 20.814px;
+		background-color: s.color(dark-gray);
+		border-radius: 208.136px;
+	}
+}
